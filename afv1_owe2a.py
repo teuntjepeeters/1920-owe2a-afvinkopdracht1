@@ -5,7 +5,7 @@
 # Opmerking: Het alpaca bestand is erg groot! Neem eerst een klein proefstukje van het bestand, met 5 tot 10 fasta's. Ga je runnen met het echte bestand, geef je programma dan even de tijd.
 
 def main():
-    bestand="alpaca_test.fa"                             
+    bestand="GCF_000164845.2_Vicugna_pacos-2.0.2_rna.fna"                             
     headers, seqs = lees_inhoud(bestand)
     
     zoekwoord = input("Geef een zoekwoord op: ")
